@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "expo-filebashed",
+    "slug": "expo-filebashed",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devam12.expofilebashed"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devam12.expofilebashed"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f69f6a4e-f9f3-4ecc-853a-5f0f4a13354b"
+      }
+    },
+    "owner": "devam12",
+    "updates": {
+      "url": "https://u.expo.dev/f69f6a4e-f9f3-4ecc-853a-5f0f4a13354b"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
